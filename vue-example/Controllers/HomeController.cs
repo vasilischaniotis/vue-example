@@ -10,6 +10,7 @@ namespace vue_example.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Message = "Message from Controller";
             return View();
         }
 
